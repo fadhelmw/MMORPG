@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MMORPG</string>
+    <string name="sealonline">Seal Online Mobile</string>
+    <string name="rfonline">Rising Force Online</string>
+    <string name="atlantica">Atlantica Online</string>
+    <string name="lunaonline">Luna Fantasy Online</string>
+    <string name="codmw">Call of Duty Mobile</string>
+    <string name="ml">Mobile Legends</string>
+    <string name="apex">Apex</string>
+    <string name="fortnite">Fortnite</string>
+    <string name="warzone">Warzone</string>
+    <string name="easport">EA FC Mobile</string>
+</resources>
