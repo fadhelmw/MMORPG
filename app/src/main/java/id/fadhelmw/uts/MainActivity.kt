@@ -42,16 +42,16 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun MMORPGGamesApp() {
-    Column(
+fun MMORPGGamesApp() { //mendefinisikan tampilan utama aplikasi
+    Column( //tata letak layout
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        Box(
+        Box( //tata letak untuk menempatkan elemen tampilan
             modifier = Modifier
                 .fillMaxWidth()
-                .background(MaterialTheme.colorScheme.primary)
+                .background(MaterialTheme.colorScheme.primary) //mengatur background title
                 .padding(16.dp)
         ) {
             Text("Top-Up MMORPG Games", style = MaterialTheme.typography.bodyLarge, color = Color.White)
@@ -86,9 +86,10 @@ fun GameList() {
             .padding(16.dp)
     ) {
         Column(
-            modifier = Modifier.padding(16.dp),
+            modifier = Modifier.padding(16.dp), //mengatur margin sekitar column
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
+            //ukuran pada setiap game
             Text(
                 text = stringResource(id = game.title),
                 style = MaterialTheme.typography.bodySmall,
@@ -105,7 +106,7 @@ fun GameList() {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .background(Color(0xFFFFE4B5))
+                    .background(Color(0xFFFFE4B5)) //warna function topup
                     .padding(8.dp)
             ) {
                 Row(
